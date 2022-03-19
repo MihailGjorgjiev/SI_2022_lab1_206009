@@ -1,5 +1,5 @@
-Млеко
-Леб
-Ориз
-Банани
-Домати
+Milk x1
+Bread x2
+Rice x3
+Bananas x2
+Tomatoes x2
