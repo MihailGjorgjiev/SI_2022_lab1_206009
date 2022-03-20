@@ -1,5 +1,6 @@
 Milk x1
 Bread x2
 Rice x3
-Bananas x2
+Apples x2
 Tomatoes x2
+Oranges x4
