@@ -1,5 +1,5 @@
 Milk x1
-Bread x2
+Bread x1
 Rice x3
 Bananas x2
 Tomatoes x2
