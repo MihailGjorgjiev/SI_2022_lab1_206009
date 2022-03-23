@@ -1,0 +1,134 @@
+4.
+git clone https://github.com/MihailGjorgjiev/SI_2022_lab1_206009.git
+5.
+git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+6.
+git add shopping_list.txt
+git commit -m "Add quantities to the items."
+7.
+git branch branch1
+git branch branch1
+8.
+commit 2569d1575767b7619447dfa356acc639fa99196a (HEAD -> master, branch2, branch1)
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 22:44:53 2022 +0100
+
+    Add quantities to the items.
+
+commit efe979836783eb90d55a0bad4fa1a72bd62251cc
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 20:52:04 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit af893ab198d08c7b7c074b89558b84f93c9056b5 (origin/master, origin/HEAD)
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:31:21 2022 +0100
+
+    Update README.md
+
+commit 0ce486390323a63b4fc7163d9897f0f5c65a43fa
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:29:46 2022 +0100
+
+    Initial commit
+
+9.
+git push origin branch1
+git push origin branch2
+10.
+git checkout branch1
+11.
+git add shopping_list.txt
+git commit -m "Change quantity of item #5"
+12.
+git checkout master
+13.
+git add shopping_list.txt
+git commit -m "Change quantity of item #2"
+14.
+git push
+git push origin branch1
+git push origin branch2
+15.
+git checkout branch2
+16.
+git add shopping_list.txt
+git commit -m "Modify item #4"
+17.
+commit 530b72a376796179388e87364e798665ae320f98 (HEAD -> branch2)
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sun Mar 20 09:59:13 2022 +0100
+
+    Modify item #4
+
+commit 2569d1575767b7619447dfa356acc639fa99196a (origin/branch2)
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 22:44:53 2022 +0100
+
+    Add quantities to the items.
+
+commit efe979836783eb90d55a0bad4fa1a72bd62251cc
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 20:52:04 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit af893ab198d08c7b7c074b89558b84f93c9056b5
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:31:21 2022 +0100
+
+    Update README.md
+
+commit 0ce486390323a63b4fc7163d9897f0f5c65a43fa
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:29:46 2022 +0100
+
+    Initial commit
+
+18.
+git add shopping_list.txt
+git commit --amend -m "Modify item #4 and add item #6"
+19.
+commit 72a130eb48e4449347f23b9e23147154970dae03 (HEAD -> branch2)
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sun Mar 20 09:59:13 2022 +0100
+
+    Modify item #4 and add item #6
+
+commit 2569d1575767b7619447dfa356acc639fa99196a (origin/branch2)
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 22:44:53 2022 +0100
+
+    Add quantities to the items.
+
+commit efe979836783eb90d55a0bad4fa1a72bd62251cc
+Author: MihailGjorgjiev <gorgievmihail1@gmail.com>
+Date:   Sat Mar 19 20:52:04 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit af893ab198d08c7b7c074b89558b84f93c9056b5
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:31:21 2022 +0100
+
+    Update README.md
+
+commit 0ce486390323a63b4fc7163d9897f0f5c65a43fa
+Author: MihailGjorgjiev <84312767+MihailGjorgjiev@users.noreply.github.com>
+Date:   Sat Mar 19 20:29:46 2022 +0100
+
+    Initial commit
+
+20.
+git checkout master
+git merge branch1
+-при спојување на гранката branch1 со master не се појавија никакви конфликти и спојувањето беше рекурзивно.
+21.
+git merge branch2
+-се појави конфликт во фајлот shopping_list.txt
+-конфликтот е решен со уредување на фајлот shopping_list.txt и зачувување на верзијата од branch2
+git add shopping_list.txt
+git commit -m "Merge branch 'branch2'"
+git merge branch2
